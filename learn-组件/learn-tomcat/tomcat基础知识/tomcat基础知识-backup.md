@@ -1,0 +1,16 @@
+# Tomcat基础知识
+## 请求过程
+1. 接收到socket
+2. 将socket交给线程池
+3. 一个线程处理一个socket连接
+4. 开始从socket中获取数据
+5. 解析请求行
+6. 解析请求头
+7. 根据请求头解析Connection对应的值是keepalive还是close
+8. 请求行和请求头解析后会设置到Request对象中
+9. 将Request对象交给容器进行处理
+10. 容器最终会交给对应的Servlet进行处理
+11. Servlet中可以获取请求的各种信息，包括获取请求体
+12. Servlet中也可以使用response对象向客户端返回响应
+13. Servlet中的代码都执行完成后，相当于容器中已经处理完了请求相当于请求的核心逻辑已经执行完了。
+14. 处理InputBuffer中的pos和lastValid，以便能够处理下一个请求

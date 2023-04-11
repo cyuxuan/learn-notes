@@ -1,0 +1,673 @@
+<mxfile host="app.diagrams.net" modified="2023-04-04T15:10:59.127Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.62" etag="mH1Aotgs35YcgNqsajev" version="21.1.4" type="device">
+  <diagram id="e-pBkrpbnY8NPdVdfqIC" name="第 1 页">
+    <mxGraphModel dx="2447" dy="911" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" target="BfhJu4IEJNAQUDajSIIz-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="60" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="BfhJu4IEJNAQUDajSIIz-1" target="U3CgeFYzsj9sVmjudT3m-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BfhJu4IEJNAQUDajSIIz-1" value="进入Main函数执行启动" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#5D7F99;strokeColor=#D0CEE2;fontColor=#1A1A1A;" parent="1" vertex="1">
+          <mxGeometry x="350" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="U3CgeFYzsj9sVmjudT3m-3" target="U3CgeFYzsj9sVmjudT3m-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-3" value="实例化一个Bootstrap对象" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="350" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="U3CgeFYzsj9sVmjudT3m-4" target="U3CgeFYzsj9sVmjudT3m-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-4" value="对Bootstrap进行初始化，即调用init" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="350" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-5" value="启动" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="U3CgeFYzsj9sVmjudT3m-8" target="U3CgeFYzsj9sVmjudT3m-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="设置catalina.home" link="catalina.home" id="U3CgeFYzsj9sVmjudT3m-8">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+            <mxGeometry x="350" y="510" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-18" value="不存在" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#736CA8;fontColor=default;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;" parent="1" source="U3CgeFYzsj9sVmjudT3m-9" target="U3CgeFYzsj9sVmjudT3m-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-22" value="存在" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="U3CgeFYzsj9sVmjudT3m-9" target="U3CgeFYzsj9sVmjudT3m-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-9" value="user.dir下面存在bootstrap.jar吗" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="343" y="630" width="134" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="U3CgeFYzsj9sVmjudT3m-11" target="U3CgeFYzsj9sVmjudT3m-27" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-11" value="设置catalina.home的值为user.dir" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="130" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-15" value="说明，user.dir是jvm内置&lt;br&gt;参数当前默认为当前工作目录" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="481" y="620" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="U3CgeFYzsj9sVmjudT3m-16" target="U3CgeFYzsj9sVmjudT3m-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-16" value="设置catalina.home为user.dir 的父级绝对路径" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="550" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="U3CgeFYzsj9sVmjudT3m-24" target="U3CgeFYzsj9sVmjudT3m-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="U3CgeFYzsj9sVmjudT3m-24" target="U3CgeFYzsj9sVmjudT3m-27" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-24" value="是否设置异常" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="560" y="860" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="U3CgeFYzsj9sVmjudT3m-27" target="U3CgeFYzsj9sVmjudT3m-30" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-27" value="设置catelinabase" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="361" y="980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="U3CgeFYzsj9sVmjudT3m-30" target="U3CgeFYzsj9sVmjudT3m-31" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-38" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#1A1A1A;labelBackgroundColor=none;" parent="U3CgeFYzsj9sVmjudT3m-32" vertex="1" connectable="0">
+          <mxGeometry x="-0.4385" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="U3CgeFYzsj9sVmjudT3m-30" target="U3CgeFYzsj9sVmjudT3m-35" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-39" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#1A1A1A;labelBackgroundColor=none;" parent="U3CgeFYzsj9sVmjudT3m-37" vertex="1" connectable="0">
+          <mxGeometry x="-0.3058" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-30" value="catalina.base为空吗" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="381" y="1089" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="U3CgeFYzsj9sVmjudT3m-31" target="U3CgeFYzsj9sVmjudT3m-42" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-31" value="不执行任何设置" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="90" y="1180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="U3CgeFYzsj9sVmjudT3m-35" target="U3CgeFYzsj9sVmjudT3m-40" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-48" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#1A1A1A;labelBackgroundColor=none;" parent="U3CgeFYzsj9sVmjudT3m-43" vertex="1" connectable="0">
+          <mxGeometry x="-0.463" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="U3CgeFYzsj9sVmjudT3m-35" target="U3CgeFYzsj9sVmjudT3m-41" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-49" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#1A1A1A;labelBackgroundColor=none;" parent="U3CgeFYzsj9sVmjudT3m-44" vertex="1" connectable="0">
+          <mxGeometry x="-0.49" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-35" value="catalina.home为空吗" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="560" y="1160" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="U3CgeFYzsj9sVmjudT3m-40" target="U3CgeFYzsj9sVmjudT3m-42" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-40" value="设置catalina.base为catalina.home" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="430" y="1240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="U3CgeFYzsj9sVmjudT3m-41" target="U3CgeFYzsj9sVmjudT3m-42" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-41" value="设置catalina.base为user.dir" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="700" y="1240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="U3CgeFYzsj9sVmjudT3m-42" target="U3CgeFYzsj9sVmjudT3m-50" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-42" value="初始化类加载器" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="361" y="1350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="U3CgeFYzsj9sVmjudT3m-50" target="U3CgeFYzsj9sVmjudT3m-58" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-50" value="初始化一个名称为common的&lt;span style=&quot;background-color: initial;&quot;&gt;公共类加载器&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="361" y="1500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-55" value="当前变量设置&lt;br&gt;catalina.home" style="shape=note;size=20;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-120" y="960" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-56" value="当前变量设置&lt;br&gt;catalina.base&lt;br&gt;catalina.home" style="shape=note;size=20;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-120" y="1300" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="U3CgeFYzsj9sVmjudT3m-58" target="U3CgeFYzsj9sVmjudT3m-60" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-58" value="从&amp;nbsp;CatalinaProperties 获取common.loader的属性值" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="590" y="1500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="U3CgeFYzsj9sVmjudT3m-60" target="U3CgeFYzsj9sVmjudT3m-63" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-60" value="CatalinaProperties被首次加载，执行static块，从catalina.properties加载一些预设的属性放到System系统参数变量中" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="590" y="1630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="U3CgeFYzsj9sVmjudT3m-63" target="U3CgeFYzsj9sVmjudT3m-65" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-68" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#1A1A1A;labelBackgroundColor=none;" parent="U3CgeFYzsj9sVmjudT3m-66" vertex="1" connectable="0">
+          <mxGeometry x="-0.1667" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-69" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="U3CgeFYzsj9sVmjudT3m-63" target="U3CgeFYzsj9sVmjudT3m-67" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="1870" />
+              <mxPoint x="650" y="1870" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-63" value="是否取到common.loader属性值" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="610" y="1754" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-65" value="直接返回父级类加载器" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="370" y="1764" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="U3CgeFYzsj9sVmjudT3m-67" target="U3CgeFYzsj9sVmjudT3m-73" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-67" value="将取到的common.loader的属性值中的${}表达式的值替换为实际值" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="590" y="1920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-79" value="进行迭代" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="U3CgeFYzsj9sVmjudT3m-73" target="U3CgeFYzsj9sVmjudT3m-75" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="2160" />
+              <mxPoint x="650" y="2160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-73" value="遍历获取资源路径" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="610" y="2050" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-80" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="U3CgeFYzsj9sVmjudT3m-75" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="2390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="U3CgeFYzsj9sVmjudT3m-75" target="U3CgeFYzsj9sVmjudT3m-78" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-92" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#1A1A1A;labelBackgroundColor=none;" parent="U3CgeFYzsj9sVmjudT3m-91" vertex="1" connectable="0">
+          <mxGeometry x="-0.2349" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-75" value="是否网络资源" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="610" y="2200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="U3CgeFYzsj9sVmjudT3m-78" target="U3CgeFYzsj9sVmjudT3m-94" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-78" value="Repository对象标记仓库地址为对应的网络地址，类型为URL" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="341" y="2210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-87" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="U3CgeFYzsj9sVmjudT3m-81" target="U3CgeFYzsj9sVmjudT3m-85" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="U3CgeFYzsj9sVmjudT3m-81" target="U3CgeFYzsj9sVmjudT3m-82" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-81" value="是否*jar结尾" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="610" y="2390" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-88" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="U3CgeFYzsj9sVmjudT3m-82" target="U3CgeFYzsj9sVmjudT3m-86" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-89" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="U3CgeFYzsj9sVmjudT3m-82" target="U3CgeFYzsj9sVmjudT3m-83" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-82" value="是否.jar结尾" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="610" y="2550" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="U3CgeFYzsj9sVmjudT3m-83" target="U3CgeFYzsj9sVmjudT3m-94" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-83" value="最终兜底，将Repositoy对象仓库地址标记为当前取出的地址，同时标记仓库类型为DIR" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="590" y="2690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="U3CgeFYzsj9sVmjudT3m-85" target="U3CgeFYzsj9sVmjudT3m-94" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-85" value="Repository对象标记仓库地址为当前的本地地址去除*.jar以后的目录，并且标记当前的类型为GLOB" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="350" y="2400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="U3CgeFYzsj9sVmjudT3m-86" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="2460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-86" value="Repository对象标记仓库地址为当前地址路径，并且标记当前的类型为JAR" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="354" y="2560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="U3CgeFYzsj9sVmjudT3m-94" target="U3CgeFYzsj9sVmjudT3m-101" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-94" value="将当前仓库对象放到仓库集合中" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="120" y="2400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.15;entryY=0.625;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="U3CgeFYzsj9sVmjudT3m-101" target="U3CgeFYzsj9sVmjudT3m-73" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-106" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#1A1A1A;labelBackgroundColor=none;" parent="U3CgeFYzsj9sVmjudT3m-103" vertex="1" connectable="0">
+          <mxGeometry x="-0.2383" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="U3CgeFYzsj9sVmjudT3m-101" target="U3CgeFYzsj9sVmjudT3m-104" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-101" value="迭代结束了吗" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="30" y="2060" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="U3CgeFYzsj9sVmjudT3m-104" target="U3CgeFYzsj9sVmjudT3m-111" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-104" value="使用前面的仓库集合创建一个class loader" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-120" y="2410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-108" value="这里的仓库集合" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;strokeColor=#736CA8;fontColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;labelBackgroundColor=none;" parent="1" source="U3CgeFYzsj9sVmjudT3m-104" target="U3CgeFYzsj9sVmjudT3m-94" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="2590" as="sourcePoint" />
+            <mxPoint x="320" y="2540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-125" value="执行迭代" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="U3CgeFYzsj9sVmjudT3m-111" target="U3CgeFYzsj9sVmjudT3m-115" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-144" value="遍历结束" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="U3CgeFYzsj9sVmjudT3m-111" target="U3CgeFYzsj9sVmjudT3m-143" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-20" y="2770" />
+              <mxPoint x="281" y="2770" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-111" value="遍历仓库集合" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-100" y="2530" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-112" value="这里的仓库集合" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#736CA8;fontColor=default;entryX=0;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=none;" parent="1" target="U3CgeFYzsj9sVmjudT3m-94" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-20" y="2570" as="sourcePoint" />
+            <mxPoint x="30" y="2520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="U3CgeFYzsj9sVmjudT3m-115" target="U3CgeFYzsj9sVmjudT3m-116" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="U3CgeFYzsj9sVmjudT3m-115" target="U3CgeFYzsj9sVmjudT3m-117" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="U3CgeFYzsj9sVmjudT3m-115" target="U3CgeFYzsj9sVmjudT3m-118" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="U3CgeFYzsj9sVmjudT3m-115" target="U3CgeFYzsj9sVmjudT3m-119" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-115" value="判断仓库类型" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-100" y="2680" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="U3CgeFYzsj9sVmjudT3m-116" target="U3CgeFYzsj9sVmjudT3m-120" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-116" value="URL类型" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-570" y="2850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="U3CgeFYzsj9sVmjudT3m-117" target="U3CgeFYzsj9sVmjudT3m-121" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-117" value="DIR类型" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-390" y="2850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="U3CgeFYzsj9sVmjudT3m-118" target="U3CgeFYzsj9sVmjudT3m-122" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-118" value="JAR类型" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-220" y="2850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="U3CgeFYzsj9sVmjudT3m-119" target="U3CgeFYzsj9sVmjudT3m-123" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-119" value="GLOB类型" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-29" y="2850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-138" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="U3CgeFYzsj9sVmjudT3m-120" target="U3CgeFYzsj9sVmjudT3m-124" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-120" value="对url路径进行字符转义" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-570" y="2990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="U3CgeFYzsj9sVmjudT3m-121" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-220" y="3160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-121" value="对url路径进行字符转义" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-390" y="2990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-140" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="U3CgeFYzsj9sVmjudT3m-122" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-220" y="3160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-122" value="获取Jar的标准路径" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-220" y="2990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="U3CgeFYzsj9sVmjudT3m-123" target="U3CgeFYzsj9sVmjudT3m-124" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-123" value="遍历对应路径下面的所有Jar，获取对应的路劲" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-29" y="2990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-142" value="进入下一次循环" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="U3CgeFYzsj9sVmjudT3m-124" target="U3CgeFYzsj9sVmjudT3m-111" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-220" y="3240" />
+              <mxPoint x="-650" y="3240" />
+              <mxPoint x="-650" y="2570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-124" value="将路径加入到一个Set集合中" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-280" y="3160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-148" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="U3CgeFYzsj9sVmjudT3m-143" target="U3CgeFYzsj9sVmjudT3m-145" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-143" value="通过&amp;nbsp;AccessController 创建一个classloader" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="221" y="3160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-147" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="U3CgeFYzsj9sVmjudT3m-145" target="U3CgeFYzsj9sVmjudT3m-146" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-153" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="U3CgeFYzsj9sVmjudT3m-145" target="U3CgeFYzsj9sVmjudT3m-151" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-145" value="classloader是空的吗" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="241" y="3380" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-152" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="U3CgeFYzsj9sVmjudT3m-146" target="U3CgeFYzsj9sVmjudT3m-151" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-146" value="使用Bootstrat的类加载器" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="221" y="3560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-149" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#736CA8;fontColor=default;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;labelBackgroundColor=none;" parent="1" source="U3CgeFYzsj9sVmjudT3m-143" target="U3CgeFYzsj9sVmjudT3m-42" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="1650" as="sourcePoint" />
+            <mxPoint x="400" y="1430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-150" value="创建的类加载器在上面这个地方使用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#1A1A1A;labelBackgroundColor=none;" parent="U3CgeFYzsj9sVmjudT3m-149" vertex="1" connectable="0">
+          <mxGeometry x="-0.6527" y="-1" relative="1" as="geometry">
+            <mxPoint x="65" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9ojr-lej2Ovl6Kux7kC-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="U3CgeFYzsj9sVmjudT3m-151" target="e9ojr-lej2Ovl6Kux7kC-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U3CgeFYzsj9sVmjudT3m-151" value="同样的逻辑，初始化&lt;br&gt;catalinaLoader&lt;br&gt;sharedLoader" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="20" y="3560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e9ojr-lej2Ovl6Kux7kC-1" value="当前变量设置&lt;br&gt;catalina.base&lt;br&gt;catalina.home&lt;br&gt;commonloader&lt;br&gt;catalinaLoader&lt;br&gt;sharedLoader" style="shape=note;size=20;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-297" y="3489" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="e9ojr-lej2Ovl6Kux7kC-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="e9ojr-lej2Ovl6Kux7kC-2" target="e9ojr-lej2Ovl6Kux7kC-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9ojr-lej2Ovl6Kux7kC-2" value="设置的当前线程类加载器为catalinaLoader" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#5D7F99;strokeColor=#D0CEE2;fontColor=#1A1A1A;" parent="1" vertex="1">
+          <mxGeometry x="20" y="3648" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e9ojr-lej2Ovl6Kux7kC-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="e9ojr-lej2Ovl6Kux7kC-3" target="e9ojr-lej2Ovl6Kux7kC-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9ojr-lej2Ovl6Kux7kC-3" value="反射获取&lt;br&gt;org.apache.catalina&lt;br&gt;.startup.Catalina" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="20" y="3739" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e9ojr-lej2Ovl6Kux7kC-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="e9ojr-lej2Ovl6Kux7kC-6" target="e9ojr-lej2Ovl6Kux7kC-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9ojr-lej2Ovl6Kux7kC-6" value="实例化一个catalina，并赋值它的类加载器&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="16.5" y="3826" width="131" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e9ojr-lej2Ovl6Kux7kC-10" value="入参是&lt;br&gt;sharedLoader&lt;br&gt;即传入了一个类加载器" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="70" y="4121" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="e9ojr-lej2Ovl6Kux7kC-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="e9ojr-lej2Ovl6Kux7kC-14" target="e9ojr-lej2Ovl6Kux7kC-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9ojr-lej2Ovl6Kux7kC-14" value="调用&lt;br&gt;setParentClassLoader&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;函数" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-262" y="4002" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e9ojr-lej2Ovl6Kux7kC-15" value="当前变量设置&lt;br&gt;System#catalina.base&lt;br&gt;System#catalina.home&lt;br&gt;Bootstrap.commonloader&lt;br&gt;Bootstrap.catalinaLoader&lt;br&gt;Bootstrap.sharedLoader&lt;br&gt;Catalina.parentClassLoader&lt;br&gt;Bootstrap.daemon&lt;br&gt;Catalina.await" style="shape=note;size=20;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-580" y="4300" width="192" height="189" as="geometry" />
+        </mxCell>
+        <mxCell id="e9ojr-lej2Ovl6Kux7kC-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="e9ojr-lej2Ovl6Kux7kC-17" target="e9ojr-lej2Ovl6Kux7kC-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9ojr-lej2Ovl6Kux7kC-17" value="实例化的Catalina赋值给Bootstrap.catalinaDaemon" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-262" y="4102" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e9ojr-lej2Ovl6Kux7kC-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="e9ojr-lej2Ovl6Kux7kC-19" target="e9ojr-lej2Ovl6Kux7kC-28" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9ojr-lej2Ovl6Kux7kC-19" value="至此bootstract的初始化就结束了" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-262" y="4195" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e9ojr-lej2Ovl6Kux7kC-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="e9ojr-lej2Ovl6Kux7kC-21" target="e9ojr-lej2Ovl6Kux7kC-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9ojr-lej2Ovl6Kux7kC-21" value="调用Catalina的无参构造器" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="22" y="3913" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e9ojr-lej2Ovl6Kux7kC-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="e9ojr-lej2Ovl6Kux7kC-22" target="e9ojr-lej2Ovl6Kux7kC-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9ojr-lej2Ovl6Kux7kC-22" value="设置安全参数&lt;br&gt;package.define&lt;br&gt;package.access" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="22" y="4002" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e9ojr-lej2Ovl6Kux7kC-26" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#736CA8;fontColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.008;exitY=0.627;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;" parent="1" source="e9ojr-lej2Ovl6Kux7kC-14" target="e9ojr-lej2Ovl6Kux7kC-10" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-152" y="4176" as="sourcePoint" />
+            <mxPoint x="-102" y="4126" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9ojr-lej2Ovl6Kux7kC-27" value="注释" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#1A1A1A;labelBackgroundColor=none;" parent="e9ojr-lej2Ovl6Kux7kC-26" vertex="1" connectable="0">
+          <mxGeometry x="-0.1734" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9ojr-lej2Ovl6Kux7kC-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="e9ojr-lej2Ovl6Kux7kC-28" target="e9ojr-lej2Ovl6Kux7kC-29" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9ojr-lej2Ovl6Kux7kC-28" value="bootstrap变量赋值给daemon" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-262" y="4317" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e9ojr-lej2Ovl6Kux7kC-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="e9ojr-lej2Ovl6Kux7kC-29" target="e9ojr-lej2Ovl6Kux7kC-33" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9ojr-lej2Ovl6Kux7kC-29" value="通过反射调用&lt;br&gt;Catalina的setAwait方法设置Catalina.await为true" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-262" y="4429" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e9ojr-lej2Ovl6Kux7kC-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="e9ojr-lej2Ovl6Kux7kC-33" target="e9ojr-lej2Ovl6Kux7kC-35" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9ojr-lej2Ovl6Kux7kC-33" value="一开始启动tomcat传入的一些指令参数&lt;br&gt;加载传入的指令参数" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-262" y="4565" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e9ojr-lej2Ovl6Kux7kC-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="e9ojr-lej2Ovl6Kux7kC-35" target="e9ojr-lej2Ovl6Kux7kC-37" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9ojr-lej2Ovl6Kux7kC-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="e9ojr-lej2Ovl6Kux7kC-35" target="e9ojr-lej2Ovl6Kux7kC-38" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9ojr-lej2Ovl6Kux7kC-35" value="反射调用Catalina的load方法加载用户给的入参" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-262" y="4687" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e9ojr-lej2Ovl6Kux7kC-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="e9ojr-lej2Ovl6Kux7kC-37" target="e9ojr-lej2Ovl6Kux7kC-39" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9ojr-lej2Ovl6Kux7kC-62" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#1A1A1A;labelBackgroundColor=none;" parent="e9ojr-lej2Ovl6Kux7kC-42" vertex="1" connectable="0">
+          <mxGeometry x="0.2556" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9ojr-lej2Ovl6Kux7kC-43" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="e9ojr-lej2Ovl6Kux7kC-37" target="e9ojr-lej2Ovl6Kux7kC-38" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9ojr-lej2Ovl6Kux7kC-37" value="通过loade变量判断是否已经加载过参数" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-22" y="4677" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="e9ojr-lej2Ovl6Kux7kC-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="e9ojr-lej2Ovl6Kux7kC-38" target="e9ojr-lej2Ovl6Kux7kC-52" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9ojr-lej2Ovl6Kux7kC-38" value="调用Bootstrat#start" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-262" y="4881" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e9ojr-lej2Ovl6Kux7kC-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="e9ojr-lej2Ovl6Kux7kC-39" target="e9ojr-lej2Ovl6Kux7kC-47" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9ojr-lej2Ovl6Kux7kC-39" value="设置加载标记loaded为true不进行二次加载了" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="178" y="4687" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e9ojr-lej2Ovl6Kux7kC-44" value="当前变量设置&lt;br&gt;System#catalina.base&lt;br&gt;System#catalina.home&lt;br&gt;Bootstrap.commonloader&lt;br&gt;Bootstrap.catalinaLoader&lt;br&gt;Bootstrap.sharedLoader&lt;br&gt;Catalina.parentClassLoader&lt;br&gt;Bootstrap.daemon&lt;br&gt;Catalina.await&lt;br&gt;System#java.io.tmpdir" style="shape=note;size=20;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-568" y="4768" width="192" height="189" as="geometry" />
+        </mxCell>
+        <mxCell id="e9ojr-lej2Ovl6Kux7kC-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="e9ojr-lej2Ovl6Kux7kC-47" target="e9ojr-lej2Ovl6Kux7kC-56" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9ojr-lej2Ovl6Kux7kC-47" value="重新设置catalina.home&lt;br&gt;catalina.base&lt;br&gt;java.io.tpmdir" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="348" y="4687" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VO8LbwSgFTMrCg7MB4aA-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#736CA8;fontColor=#1A1A1A;" edge="1" parent="1" source="e9ojr-lej2Ovl6Kux7kC-52" target="e9ojr-lej2Ovl6Kux7kC-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9ojr-lej2Ovl6Kux7kC-52" value="在这之前，如果catalina变量不存在则bootstrap重新调用init获取catalina&lt;br&gt;通过反射调用Catalina#start方法" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-262" y="5014" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VO8LbwSgFTMrCg7MB4aA-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#736CA8;fontColor=#1A1A1A;" edge="1" parent="1" source="e9ojr-lej2Ovl6Kux7kC-54" target="VO8LbwSgFTMrCg7MB4aA-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9ojr-lej2Ovl6Kux7kC-54" value="将配置文件交给digester,并解析&lt;br&gt;解析的过程则生成对应的对象" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-262" y="5144" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e9ojr-lej2Ovl6Kux7kC-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="e9ojr-lej2Ovl6Kux7kC-56" target="e9ojr-lej2Ovl6Kux7kC-57" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9ojr-lej2Ovl6Kux7kC-56" value="初始化命名空间" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="540" y="4687" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e9ojr-lej2Ovl6Kux7kC-59" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="e9ojr-lej2Ovl6Kux7kC-57" target="e9ojr-lej2Ovl6Kux7kC-58" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9ojr-lej2Ovl6Kux7kC-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="e9ojr-lej2Ovl6Kux7kC-57" target="e9ojr-lej2Ovl6Kux7kC-60" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9ojr-lej2Ovl6Kux7kC-57" value="是否启动命名空间，默认启用" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="560" y="4794" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VO8LbwSgFTMrCg7MB4aA-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#736CA8;fontColor=default;" edge="1" parent="1" source="e9ojr-lej2Ovl6Kux7kC-58" target="e9ojr-lej2Ovl6Kux7kC-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9ojr-lej2Ovl6Kux7kC-58" value="设置catalina.userName=true" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="544" y="4945" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e9ojr-lej2Ovl6Kux7kC-60" value="设置&lt;br&gt;catalina.useNaming=false" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="348" y="4804" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e9ojr-lej2Ovl6Kux7kC-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#736CA8;fontColor=default;labelBackgroundColor=none;" parent="1" source="e9ojr-lej2Ovl6Kux7kC-65" target="e9ojr-lej2Ovl6Kux7kC-66" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9ojr-lej2Ovl6Kux7kC-65" value="设置系统参数&lt;br&gt;java.naming.factory.url.pkgs&lt;br&gt;value + &quot;:&quot; + oldvalue" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="350" y="4945" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VO8LbwSgFTMrCg7MB4aA-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#736CA8;fontColor=default;" edge="1" parent="1" source="e9ojr-lej2Ovl6Kux7kC-66" target="e9ojr-lej2Ovl6Kux7kC-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9ojr-lej2Ovl6Kux7kC-66" value="如果系统参数&lt;br&gt;java.naming.factory.initial没有设置过则设置为&lt;br&gt;org.apache.naming&lt;br&gt;.java.javaURLContextFactory" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="150" y="4945" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VO8LbwSgFTMrCg7MB4aA-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#736CA8;fontColor=default;" edge="1" parent="1" source="e9ojr-lej2Ovl6Kux7kC-68" target="e9ojr-lej2Ovl6Kux7kC-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9ojr-lej2Ovl6Kux7kC-68" value="初始化digester&lt;br&gt;digester会根据xml解析对象" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="150" y="5074" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VO8LbwSgFTMrCg7MB4aA-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#736CA8;fontColor=default;" edge="1" parent="1" source="e9ojr-lej2Ovl6Kux7kC-69" target="e9ojr-lej2Ovl6Kux7kC-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9ojr-lej2Ovl6Kux7kC-69" value="digster的解析做一个遗留项目" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="348" y="5074" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VO8LbwSgFTMrCg7MB4aA-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#736CA8;fontColor=default;" edge="1" parent="1" source="e9ojr-lej2Ovl6Kux7kC-70" target="e9ojr-lej2Ovl6Kux7kC-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9ojr-lej2Ovl6Kux7kC-70" value="获取配置文件路径，默认实在conf/server.xml" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="550" y="5074" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VO8LbwSgFTMrCg7MB4aA-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#736CA8;fontColor=default;" edge="1" parent="1" source="e9ojr-lej2Ovl6Kux7kC-71" target="e9ojr-lej2Ovl6Kux7kC-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9ojr-lej2Ovl6Kux7kC-71" value="配置文件会使用&lt;br&gt;catalina.home&lt;br&gt;拼接一个绝对路径来使用" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="550" y="5191" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VO8LbwSgFTMrCg7MB4aA-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#736CA8;fontColor=default;" edge="1" parent="1" source="e9ojr-lej2Ovl6Kux7kC-79" target="e9ojr-lej2Ovl6Kux7kC-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9ojr-lej2Ovl6Kux7kC-79" value="默认目录下面没取到则通过当前类加载器加载一次，因为有可能是类文件" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="350" y="5191" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VO8LbwSgFTMrCg7MB4aA-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#736CA8;fontColor=#1A1A1A;" edge="1" parent="1" source="e9ojr-lej2Ovl6Kux7kC-80" target="VO8LbwSgFTMrCg7MB4aA-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VO8LbwSgFTMrCg7MB4aA-15" value="一个配置文件都没有取到的时候" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#1A1A1A;" vertex="1" connectable="0" parent="VO8LbwSgFTMrCg7MB4aA-14">
+          <mxGeometry x="-0.4244" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9ojr-lej2Ovl6Kux7kC-80" value="还没取到则获取server-embed.xml" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="147.5" y="5191" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VO8LbwSgFTMrCg7MB4aA-13" value="结束" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#5D7F99;strokeColor=#D0CEE2;fontColor=#1A1A1A;" vertex="1" parent="1">
+          <mxGeometry x="-542" y="5191" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VO8LbwSgFTMrCg7MB4aA-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#736CA8;fontColor=#1A1A1A;" edge="1" parent="1" source="VO8LbwSgFTMrCg7MB4aA-17" target="VO8LbwSgFTMrCg7MB4aA-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VO8LbwSgFTMrCg7MB4aA-17" value="获取server&lt;br&gt;赋值给当前的catalina" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;" vertex="1" parent="1">
+          <mxGeometry x="-262" y="5299" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VO8LbwSgFTMrCg7MB4aA-18" value="初始化输入输出流" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;" vertex="1" parent="1">
+          <mxGeometry x="-262" y="5445" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VO8LbwSgFTMrCg7MB4aA-21" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#D0CEE2;fontColor=#1A1A1A;fillColor=#5D7F99;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="5448" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
